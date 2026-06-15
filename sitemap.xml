@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cosmos0111-cmyk.github.io/bp-t3b07-gy-shirts-rc/</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://cosmos0111-cmyk.github.io/bp-t3b07-gy-shirts-rc/about.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cosmos0111-cmyk.github.io/bp-t3b07-gy-shirts-rc/posts/compare-002-1b80603.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cosmos0111-cmyk.github.io/bp-t3b07-gy-shirts-rc/posts/juice-1.html</loc>
@@ -50,7 +56,7 @@
   </url>
   <url>
     <loc>https://cosmos0111-cmyk.github.io/bp-t3b07-gy-shirts-rc/feed.xml</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
