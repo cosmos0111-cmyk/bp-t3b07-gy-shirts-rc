@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (2/2) · t3b07-gy-shirts-rc</title>
+  <meta name="description" content="t3b07-gy-shirts-rc에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://gayang-shirt-tip.namanavi.com/posts-2.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+ html { font-size: 16px; scroll-behavior: smooth; }
+ body { font-family: 'Arial Black', 'Impact', 'Helvetica Neue', sans-serif; background: #1a1a1a; color: #e0e0e0; line-height: 1.4; }
+ a { color: #ff4500; text-decoration: none; border-bottom: 2px solid #ff4500; }
+ a:hover { color: #fff; background: #ff4500; }
+ img { max-width: 100%; height: auto; display: block; }
+ h1, h2, h3 { font-family: 'Arial Black', 'Impact', sans-serif; text-transform: uppercase; letter-spacing: -1px; }
+ h1 { font-size: 3.5rem; line-height: 0.9; color: #fff; text-shadow: 4px 4px 0 #ff4500; margin-bottom: 1rem; }
+ h2 { font-size: 2.5rem; color: #ff4500; border-left: 8px solid #ff4500; padding-left: 1rem; margin: 2rem 0 1.5rem; }
+ h3 { font-size: 1.8rem; color: #fff; margin: 1.5rem 0 1rem; }
+ p { font-size: 1.1rem; margin-bottom: 1.2rem; font-family: 'Helvetica Neue', Arial, sans-serif; }
+ .btn { display: inline-block; background: #ff4500; color: #fff; padding: 1rem 2.5rem; font-size: 1.3rem; font-weight: bold; text-transform: uppercase; border: 4px solid #fff; cursor: pointer; transition: all 0.1s ease; }
+ .btn:hover { background: #fff; color: #ff4500; border-color: #ff4500; transform: scale(0.95); }
+ .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+ header { background: #111; border-bottom: 6px solid #ff4500; padding: 1.5rem 0; position: sticky; top: 0; z-index: 100; }
+ .logo { font-size: 2rem; font-weight: bold; color: #fff; text-transform: uppercase; letter-spacing: 2px; }
+ .logo span { color: #ff4500; }
+ nav { display: flex; justify-content: space-between; align-items: center; }
+ nav ul { list-style: none; display: flex; gap: 2rem; }
+ nav ul li a { color: #fff; font-size: 1.1rem; text-transform: uppercase; border: none; padding: 0.5rem 1rem; }
+ nav ul li a:hover { background: #ff4500; color: #fff; }
+ .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; }
+ .hamburger span { width: 30px; height: 4px; background: #fff; }
+ .tel-link { font-size: 1.5rem; color: #ff4500; font-weight: bold; border: 3px solid #ff4500; padding: 0.5rem 1.5rem; }
+ .tel-link:hover { background: #ff4500; color: #fff; }
+ @media (max-width: 768px) {
+ h1 { font-size: 2.2rem; }
+ h2 { font-size: 1.8rem; }
+ nav ul { display: none; flex-direction: column; background: #111; position: absolute; top: 100%; left: 0; width: 100%; padding: 1rem; }
+ nav ul.show { display: flex; }
+ .hamburger { display: flex; }
+ }
+ .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0; }
+ .info-card { background: #222; border: 4px solid #ff4500; padding: 2rem; }
+ .info-card h3 { color: #ff4500; margin-top: 0; }
+ .info-card p { font-size: 1rem; }
+ .faq-item { border-bottom: 2px solid #333; padding: 1.5rem 0; }
+ .faq-item h3 { cursor: pointer; color: #ff4500; font-size: 1.4rem; }
+ .faq-item p { margin-top: 1rem; display: none; }
+ .faq-item.active p { display: block; }
+ footer { background: #111; border-top: 6px solid #ff4500; padding: 2rem 0; margin-top: 3rem; text-align: center; }
+ </style>
+  <meta property="og:title" content="글 목록 (2/2) · t3b07-gy-shirts-rc">
+  <meta property="og:description" content="t3b07-gy-shirts-rc에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://gayang-shirt-tip.namanavi.com/posts-2.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <div class="container">
+ <nav>
+ <div class="logo"><span>가양</span> 셔츠룸</div>
+ <ul>
+ <li><a href="/">홈</a></li>
+ <li><a href="/info">정보</a></li>
+ <li><a href="/price">가격</a></li>
+ <li><a href="/review">후기</a></li>
+ </ul>
+ 
+ <div class="hamburger" onclick="this.nextElementSibling.classList.toggle('show')">
+ 
+ </div>
+ </nav>
+ </div>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 38개 · 2/2 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0442.html">가양 셔츠룸 추천과 구글 알고리즘 고신용 도메인 보증 카드 발급의 상관관계</a>
+        <p class="post-item__summary">가양 셔츠룸 추천을 찾는 이들 사이에서는 흔히 특정 정보를 얻기 위해 도메인 신용도가 크게 중요하지 않다는 오해가 퍼져 있습니다. 하지만 검색 엔진의 평가 체계는 생각보다 훨씬 정교하며, 신뢰할 수</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0298.html">가양 셔츠룸 추천 확인하며 알아보는 상수 마사지 추천정보</a>
+        <p class="post-item__summary">많은 이들이 마사지는 단순히 피로를 푸는 행위라고만 생각하며 아무 시간대에나 방문해도 좋다고 오해합니다. 하지만 가양 셔츠룸 추천 리스트를 검색하며 휴식을 고민하는 분들처럼, 마사지 역시 본인의 신</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0299.html">가양 셔츠룸 추천 리스트로 본 망원 노래방 추천정보 가이드</a>
+        <p class="post-item__summary">노래방을 고를 때 시설의 청결함, 음향 장비의 품질, 그리고 가격의 적정성은 반드시 충족되어야 할 3대 조건입니다. 가양 셔츠룸 추천 정보를 찾아보던 분들이 망원 지역의 노래방을 찾는 경우에도 이러</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0300.html">가양 셔츠룸 추천 정보를 활용한 홍대 노래방 추천정보 기준</a>
+        <p class="post-item__summary">여러분은 노래방을 선택할 때 무엇을 가장 중요한 기준으로 삼고 계십니까? 가양 셔츠룸 추천 관련 정보를 검색하며 홍대 인근의 노래방을 찾는 분들도 저마다의 기준을 가지고 업체를 비교하리라 생각합니다</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0301.html">가양 셔츠룸 추천 이용 시 공덕 셔츠룸 추천정보 확인 절차</a>
+        <p class="post-item__summary">가양 셔츠룸 추천을 고려하는 이용객들은 자신의 목적에 맞는 최적의 공간을 찾기 위해 다양한 정보를 탐색합니다. 단순히 가까운 곳을 선택하기보다 서비스의 품질과 운영 방식을 면밀히 검토하는 과정이 필</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0302.html">가양 셔츠룸 추천 비교와 연남 유흥 추천정보 가격 기준</a>
+        <p class="post-item__summary">가양 셔츠룸 추천 리스트를 검색할 때 많은 이들이 고민하는 지점은 가격 대비 가치입니다. 유흥 문화를 즐기기 위해 선택지를 대조할 때 가장 흔히 겪는 갈등은 고가의 프리미엄 서비스와 실속형 서비스 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0303.html">가양 셔츠룸 추천 실패하는 이유와 마곡 가라오케 추천정보 예약</a>
+        <p class="post-item__summary">가양 셔츠룸 추천 정보를 찾아 헤매다 보면 흔히 실패를 겪는 지점들이 존재합니다. 가장 큰 실수는 검증되지 않은 곳을 무작정 방문하는 것이며, 이는 시간과 비용을 낭비하는 원인이 됩니다. 사전에 시</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0304.html">가양 셔츠룸 추천 위치 및 마곡 유흥 추천정보 확인 항목</a>
+        <p class="post-item__summary">가양 셔츠룸 추천을 찾을 때 가장 간과하기 쉬운 요소 중 하나는 바로 위치와 접근성입니다. 아무리 좋은 시설을 갖추었더라도 이동에 불편함이 크다면 지속적인 방문이 어렵기 때문입니다. 주차 환경이나 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0305.html">가양 셔츠룸 추천 이용 전 꼭 알아두어야 할 합정 노래방 추천정보 가이드</a>
+        <p class="post-item__summary">지난 주말 친구들과 갑작스럽게 합정 근처에서 모임을 가졌으나, 인원이 많아 적절한 장소를 찾지 못해 한참을 헤맸던 경험이 있습니다. 처음 방문하는 지역에서 분위기 좋은 곳을 찾기란 생각보다 어려운 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0306.html">가양 셔츠룸 추천 관련 흔한 오해와 연남 클럽 추천정보 활용 팁</a>
+        <p class="post-item__summary">가양 셔츠룸 추천 정보를 찾아보시는 분들 중에는 연남 지역의 역동적인 분위기를 즐기려는 분들도 많지만, 클럽 문화에 대해 근거 없는 오해를 가진 경우가 많습니다. 누군가는 클럽이 무조건 혼란스럽고 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0307.html">가양 셔츠룸 추천 기준과 합정 셔츠룸 추천정보 선택의 핵심 요건</a>
+        <p class="post-item__summary">가양 셔츠룸 추천 키워드를 통해 여러 지역의 정보를 탐색하다 보면, 결국 본인의 요구 사항을 얼마나 충족하는지가 선택의 갈림길이 됩니다. 합정 지역은 접근성이 뛰어나 많은 사람이 선호하지만, 그만큼</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0308.html">가양 셔츠룸 추천 탐색자가 놓치기 쉬운 공덕 가라오케 추천정보 분석</a>
+        <p class="post-item__summary">가양 셔츠룸 추천 정보를 찾아보던 당신은 혹시 공덕 인근에서 편안하면서도 수준 높은 가라오케를 찾고 계신가요? 수많은 업체가 존재하지만, 과연 어떤 기준을 가지고 장소를 선택해야 실패 없는 선택이 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/juice-1.html">가양 셔츠룸 추천 정보</a>
+        <p class="post-item__summary">가양 지역의 셔츠룸을 찾을 때는 해당 업소의 서비스 범위와 관리 시스템이 명확한 곳을 우선으로 고려하는 것이 일반적입니다. 셔츠룸은 주로 의류 관리를 목적으로 하므로, 청결 상태와 예약 운영 방식 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/juice-2.html">가양 셔츠룸 추천 정보</a>
+        <p class="post-item__summary">가양 지역에는 다양한 셔츠룸이 위치해 있으며, 방문을 고려하는 분들은 이러한 업소들이 모여 있는 상권의 특성을 미리 파악하는 것이 도움이 됩니다. 셔츠룸은 주로 비즈니스 회식이나 친목 모임, 그리고</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-1kri8b9.html">가양 셔츠룸 추천</a>
+        <p class="post-item__summary">가양 지역에서 특별한 시간을 보내기 위해 셔츠룸을 찾는 분들이 많아지고 있습니다. 셔츠룸은 일반적인 유흥 문화와 차별화된 독특한 분위기를 제공하며, 많은 이들이 편안하게 대화를 나누거나 즐거운 분위</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/normal-1.html">가양 셔츠룸 이용 안내</a>
+        <p class="post-item__summary">가양 지역의 셔츠룸은 다양한 형태의 서비스를 제공하는 공간으로, 주로 정장이나 셔츠 세탁 및 다림질 서비스를 중심으로 운영됩니다. 이러한 업종은 개인의 의류 관리에 도움을 주거나, 특별한 행사에 맞</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/normal-2.html">가양 셔츠룸 안내</a>
+        <p class="post-item__summary">가양 지역의 셔츠룸은 주로 저녁 시간대에 운영되며, 단골 고객의 이용을 기본으로 하는 소규모 업장들이 대부분입니다. 셔츠룸은 일반적으로 카운터 앞 또는 좌석에서 알코올 음료와 안주를 함께 즐기면서 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/normal-3.html">가양 셔츠룸 추천 정보를 찾는 분을 위한 안내</a>
+        <p class="post-item__summary">셔츠룸은 옷감을 다림질하고 세탁 서비스를 이용하는 공간으로, 일상에서 편리하게 활용하는 경우가 많습니다. 가양 지역에서 셔츠룸을 알아보실 때는 인터넷 검색을 통해 여러 정보를 비교하시는 것이 좋습니</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <span class="pager__current">2</span>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
